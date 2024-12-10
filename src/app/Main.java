@@ -13,10 +13,10 @@ public class Main {
 
     //declaring class variables
     static String product;
-    static int dayCount;//ask the user
+    static int dayCount;
     static int productNumber;
-    static int itemQuantity; //ask the user
-    static double price; //ask the user
+    static int itemQuantity;
+    static double price;
     static double salesByDay;
     static double totalSales;
 
@@ -30,7 +30,7 @@ public class Main {
         product = "smartphone";
         productNumber = 1;
 
-        //request from the user for the price of the product
+        //Ask the user to enter the price of the product
         System.out.printf("Input the price for the, %S %s: ",
                 CURRENCY_EUR, product);
         price = scanner.nextDouble();
